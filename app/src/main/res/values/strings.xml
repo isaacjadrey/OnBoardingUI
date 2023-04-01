@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OnBoarding</string>
+    <string name="welcome">Welcome</string>
+    <string name="get_biceps">Get Bigger Biceps</string>
+    <string name="personal_training">Personal Training</string>
+    <string name="activity_monitor">Activity Monitor</string>
+    <string name="get_biceps_desc">Find the upfront workout to build huge biceps best suited to your schedule</string>
+    <string name="personal_training_desc">Get the industry expert tips on how to engage in individual personal training</string>
+    <string name="activity_monitor_desc">Monitor your progress as you quickly transform to your desired body</string>
+    <string name="get_started">Get Started</string>
+</resources>
