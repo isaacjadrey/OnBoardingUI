@@ -8,6 +8,13 @@ class OnBoardingItem(
     val description: Int
 ) {
     companion object {
+        /**
+         * Function getItems returns a list of OnBoarding items
+         * which shows:
+         * the image
+         * title and
+         * description
+         */
         fun getItems(): List<OnBoardingItem> {
             return listOf(
                 OnBoardingItem(R.drawable.undraw_healthy_habit, R.string.get_biceps, R.string.get_biceps_desc),

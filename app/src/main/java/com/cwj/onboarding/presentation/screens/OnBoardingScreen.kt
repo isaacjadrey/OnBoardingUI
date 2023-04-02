@@ -77,6 +77,12 @@ fun OnBoardingScreen(modifier: Modifier = Modifier, onSkipNext: () -> Unit) {
     }
 }
 
+/**
+ * Header holds the skip text button and a back button for previous item
+ *  @param isFirstItem checks if an item is the first in the list
+ *  @param onBackItem performs previous item navigation
+ *  @param onSkip skips the onBoarding process and navigates to a dedicated destination
+ */
 @Composable
 fun Header(
     modifier: Modifier = Modifier,
@@ -89,6 +95,10 @@ fun Header(
             .fillMaxWidth()
             .padding(12.dp)
     ) {
+        /**
+         * if its the first item in the list then we don't show the keyboardArrowLeft icon
+         * otherwise show the icon inorder to click for back previous item
+         */
         if (isFirstItem) {
             TextButton(
                 onClick = onSkip,
@@ -104,7 +114,6 @@ fun Header(
                     contentDescription = "previous item"
                 )
             }
-
             TextButton(
                 onClick = onSkip,
                 modifier = modifier.align(Alignment.CenterEnd),
@@ -153,6 +162,12 @@ fun OnBoardScreenItems(modifier: Modifier = Modifier, items: OnBoardingItem) {
     }
 }
 
+/**
+ * Footer displays the indicator showing the current screen and button to go to the next screen
+ * @param size dictates the size of the indicator
+ * @param index shoes the current screen
+ * @param onNextItem performs actions to move to the next item in the list
+ */
 @Composable
 fun Footer(
     modifier: Modifier = Modifier,
@@ -175,13 +190,17 @@ fun Footer(
         ) {
             Icon(
                 imageVector = Icons.Filled.KeyboardArrowRight,
-                contentDescription = "next item",
-//                tint = Color.White
+                contentDescription = "next item"
             )
         }
     }
 }
 
+/**
+ * function creates footer indicators that show that show the current screen you at in
+ * @param size dictates the size of the indicator on the current screen
+ * @param index displays which is the current screen
+ */
 @Composable
 fun BoxScope.Indicators(modifier: Modifier = Modifier, size: Int, index: Int) {
     Row(
