@@ -10,5 +10,10 @@
   in Kotlin & Jetpack Compose</h4>
 </div>
 
+## Components
+* [Compose Pager](https://developer.android.com/jetpack/compose/layouts/pager)
+* [Compose Navigation](https://developer.android.com/jetpack/compose/navigation)
+* [Material 3](https://m3.material.io)
+
 ## Demo:
 <img src="src/sample.gif" height="500px">
