@@ -5,8 +5,9 @@
   [![API](https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=24)
   ![Language](https://img.shields.io/badge/language-Kotlin-orange.svg)
 
-  <sub>Developed with ❤︎ by
-  <h4><a href="https://github.com/isaacjadrey">Isaac Jadrey Ongwara Jr</a> in Kotlin & Jetpack Compose</h4>
+  <sub>Developed with ❤︎ by<h4><a href="https://github.com/isaacjadrey">Isaac Jadrey</a> 
+  
+  in Kotlin & Jetpack Compose</h4>
 </div>
 
 ## Demo:
